@@ -259,3 +259,104 @@ a {
 .main-ft .live .p3 {
   width: 224px;
 }
+.courses .child1 {
+  color: #767e7e;
+  font-size: 12px;
+  font-weight: 700;
+}
+.courses .child2 {
+  color: #0d1111;
+  font-size: 42px;
+  font-weight: 700;
+  margin-top: 40px;
+}
+.courses .ngang p:first-child {
+  color: #767e7e;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  width: 525px;
+  margin-top: 30px;
+  margin-bottom: 79px;
+}
+.courses .ngang {
+  display: flex;
+}
+.courses .ngang p:nth-of-type(2) {
+  color: #1ebfc1;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+  margin-left: auto;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.courses .content .p1 {
+  color: #0d1111;
+  font-size: 22px;
+  font-weight: 700;
+  padding-top: 18px;
+}
+
+.courses .content .p2 {
+  color: #767e7e;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 16px;
+}
+.courses .content span {
+  color: #0d1111;
+  font-size: 22px;
+  font-weight: 700;
+}
+.courses .content .p3 {
+  color: #9da6a5;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 16px;
+}
+.courses .content .div .ico {
+  width: 6px;
+  height: 6px;
+  background: #1ebfc1;
+  border-radius: 999px;
+}
+.courses .content .div p {
+  color: #9da6a5;
+  font-size: 14px;
+  font-weight: 400;
+}
+.courses .content .div {
+  display: flex;
+  margin-top: 18px;
+  align-items: center;
+  gap: 10px;
+}
+.courses {
+  width: 1171px;
+  height: 778px;
+  margin-top: 130px;
+}
+.courses .content {
+  width: 325px;
+  height: 195px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 16px 90px 0 rgba(0, 0, 0, 0.05);
+  padding-left: 25px;
+  position: absolute;
+  top: 322px;
+  left: 17px;
+}
+.courses .box .img {
+  position: relative;
+}
+.courses .box {
+  display: flex;
+  justify-content: space-between;
+}
