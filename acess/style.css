@@ -19,6 +19,8 @@ a {
   display: flex;
   padding-top: 57px;
   align-items: center;
+  background: #ffffff;
+  padding-bottom: 5px;
 }
 .header ul {
   display: flex;
@@ -59,6 +61,7 @@ a {
 .fixed {
   position: sticky;
   top: -44px;
+  z-index: 999;
 }
 /* -------------------hero------------------------ */
 .hero {
@@ -99,7 +102,7 @@ a {
   line-height: 1.78;
   margin-top: 46px;
 }
-.hero .left .div-button .start {
+.start {
   display: flex;
   width: 186px;
   height: 68px;
@@ -112,7 +115,7 @@ a {
   font-weight: 600;
   padding: 22px 41px;
 }
-.hero .left .div-button a:nth-of-type(2) {
+.div-button a:nth-of-type(2) {
   width: 62px;
   height: 62px;
   border-radius: 999px;
@@ -359,4 +362,172 @@ a {
 .courses .box {
   display: flex;
   justify-content: space-between;
+}
+.number {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 862px;
+  height: 131px;
+  justify-content: space-between;
+  margin-top: 265px;
+  margin-bottom: 265px;
+}
+.number .box p:first-child {
+  color: #0d1111;
+  text-align: center;
+  font-size: 62px;
+  font-weight: 700;
+}
+.number .box p:last-child {
+  color: #767e7e;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 35px;
+}
+.feed-back .control-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background: #ffffff;
+  border: 2px solid #2ac9bf;
+  color: #2ac9bf;
+}
+.feed-back .control-btn:hover {
+  cursor: pointer;
+  background: #2ac9bf;
+  color: #fff;
+}
+.feed-back .left {
+  margin-top: 37px;
+  margin-bottom: 37px;
+}
+.feed-back .left .controls button {
+  margin-right: 28px;
+}
+.feed-back .left .p1 {
+  color: #5d6564;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.5;
+  width: 419px;
+  margin-top: 27px;
+}
+.feed-back .left .p2 span {
+  color: #070707;
+  font-size: 16px;
+  font-weight: 500;
+}
+.feed-back .left .p2 {
+  color: #767e7e;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 33px;
+  margin-bottom: 52px;
+}
+.feed-back {
+  display: flex;
+}
+.feed-back .right {
+  position: relative;
+}
+.feed-back .right {
+  margin-left: auto;
+  width: 679px;
+  height: 481px;
+}
+.feed-back .right .img2 {
+  position: absolute;
+  top: 0;
+  left: 144px;
+}
+.feed-back .right .img3 {
+  position: absolute;
+  top: 9px;
+  right: 0;
+}
+.feed-back .right .img5 {
+  position: absolute;
+  top: 107px;
+  right: 171px;
+}
+.feed-back .right .img8 {
+  position: absolute;
+  bottom: 29px;
+  right: 32px;
+}
+.feed-back .right .img6 {
+  position: absolute;
+  bottom: 0px;
+  right: 389px;
+}
+.feed-back .right .img1 {
+  position: absolute;
+  bottom: 145px;
+  left: 0;
+}
+.plus {
+  background-color: #def6f5;
+  height: 272px;
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+.plus .box-text {
+  display: flex;
+}
+.plus p:first-child {
+  color: #070707;
+  font-size: 42px;
+  font-weight: 700;
+  width: 420px;
+  margin-top: 76px;
+}
+.plus p:nth-child(2) {
+  color: #767e7e;
+  font-size: 18px;
+  font-weight: 400;
+  width: 397px;
+  margin-top: 32px;
+}
+.plus a {
+  margin-top: 96px;
+  margin-left: 410px;
+}
+footer li:first-child {
+  color: #2e2e2e;
+  font-size: 18px;
+  font-weight: 500;
+}
+footer li {
+  color: #535353;
+  font-size: 16px;
+  font-weight: 400;
+}
+footer .common {
+  display: flex;
+}
+footer .common .img {
+  width: 23%;
+}
+footer .common .percent {
+  width: 22.53%;
+}
+footer .common .ul {
+  margin-left: auto;
+}
+footer .common ul li {
+  margin-bottom: 18px;
+}
+footer .common .ul li {
+  display: flex;
+  gap: 13px;
+  margin-bottom: 18px;
+}
+footer .copyright {
+  color: #b0b5b4;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 80px;
 }
